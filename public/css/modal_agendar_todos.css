@@ -1,0 +1,123 @@
+
+/* Definición de variables de color */
+:root {
+    --color-verde: #007A3E;
+    --color-verde-claro: #D4FFCA;
+    --color-rojo: #BA000B;
+    --color-azul: #43B02A;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+    --color-gris: #888888;
+    --color-gris-fondo: rgba(0, 0, 0, 0.5);
+    --color-gris-borde: #545859;
+}
+
+.modal-right-agendar {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100% !important;
+    overflow-y: auto;
+    background-color: var(--color-gris-fondo);
+    z-index: 2000;
+    overflow: auto;
+}
+
+.modal-contenido-agendar {
+    position: relative;
+    background-color: var(--color-blanco);
+    margin: 0 auto;
+    border: 1px solid var(--color-gris);
+    height: 100% !important;
+    width: 480px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.modal-content-agendar {
+    height: 100vh !important;
+    width: 480px;
+    overflow-y: auto;
+}
+
+.modal-header-agendar {
+    color: var(--color-verde) !important;
+    background-color: var(--color-verde-claro) !important;
+    border-bottom: 1px solid var(--color-verde) !important;
+}
+
+.btn-modal-cancel,
+.btn-agendar-evento {
+    color: var(--color-verde);
+}
+
+.btn-modal-cancel:hover,
+.btn-agendar-evento:hover {
+    border-bottom: 1px solid var(--color-verde);
+    border-right: 1px solid var(--color-verde);
+}
+
+.btn-modal-cancel:hover {
+    color: var(--color-verde);
+}
+
+/* Altura del contenido para ver calendar */
+.modal-content-calendar-agendar {
+    height: 60vh !important;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* STYLES PARA tipo_evento y fecha_hora_meet */
+.evento-time,
+.time-modal {
+    color: var(--color-verde);
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid var(--color-verde);
+}
+
+/* Estilos para los inputs de tipo:file */
+.input-file-sub-soporte {
+    color: var(--color-gris);
+    background-color: var(--color-verde-claro);
+    border: 1px dashed var(--color-azul);
+    width: auto !important;
+    cursor: pointer;
+}
+
+.input-file-sub-soporte::-webkit-file-upload-button {
+    display: none;
+}
+
+.input-file-sub-soporte:hover {
+    color: var(--color-verde);
+    border: 2px dashed var(--color-azul);
+}
+
+.btnQuitarFila {
+    color: var(--color-rojo);
+    cursor: pointer;
+}
+
+.btnQuitarFila:hover {
+    color: var(--color-rojo);
+}
+
+.add_files {
+    color: var(--color-verde);
+}
+
+.add_files:hover {
+    color: var(--color-rojo);
+}

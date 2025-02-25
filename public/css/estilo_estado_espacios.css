@@ -1,0 +1,413 @@
+/*Para los buttons de filtro*/
+.content-filtros-select select{
+    width: 150px !important;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content-filtros-select input[type="date"] {
+    width: 150px !important;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Contenedores de filtros:*/
+.contenedor-buttos-spaces{
+}
+.container-buttons-tabs-filtros{
+    border-bottom: 1px solid #D3D3D3;
+    padding: 10px 32px 5px 32px;
+    align-items: flex-start;
+    gap: 0px;
+}
+.buttons-select{
+    border-radius: 4px 4px 0px 0px;
+    /*border-bottom: 2px solid #43B02A;*/
+    border:none;
+    color: #545859;
+}
+.buttons-select:hover{
+    border:none;
+    color: #43B02A;
+    border-bottom: 2px solid #43B02A;
+    background-color: #F1FFEE;
+}
+.buttons-select.active{
+    border-bottom: 2px solid #2F8E19 !important;
+    color: #2F8E19 !important;
+    background-color: transparent !important;
+}
+
+.inputs-de-filtro{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #43B02A !important;
+    background: #FFF !important;
+}
+.inputs-de-filtro:hover{
+    border: 1px solid #43B02A;
+    background: #F1FFEE !important;
+    color: #2F8E19;
+}
+
+.estilos-btns-tabs{
+    border: 1px solid #BFBFBF !important;
+    margin: 5px 0px;
+    color: #2F3233 !important;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+}
+
+.estilos-btns-tabs:hover{
+    background-color: #43B02A!important;
+    color: #FFFFFF !important;
+}
+
+.estilos-btns-tabs.active{
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.estilos-btns-tabs.active:hover{
+    color: #FFFFFF !important;
+}
+.contenido-de-tabs{
+    color: #2F3233 !important;
+    padding: 5px 5px;
+}
+.subtitle-content-tabs{
+    color: #636F73;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px
+}
+.divisor-partes{
+    padding-bottom: 16px;
+    gap: 16px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.subtitle-content-guia{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2F3233;
+}
+.content-subtitle{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #252C2E;
+}
+/*Estilos para los cards agendadas:*/
+.icon-invitados{
+    color: #43B02A;
+    margin-right: 10px;
+}
+.span-invitados{
+    background-color: #43B02A !important;
+    color: #FFFFFF !important;
+    border-radius: 100px;
+    padding: 2px 8px;
+    gap: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100px;
+
+}
+
+.title-cabeceras{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.card-sesiones-cercanas,
+.card-sesiones-atendidas,
+.card-sesiones-pendientes{
+    border: 1px solid  #D3D3D3;
+}
+
+.text-espacio-cercana,
+.text-espacio-atendida{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: #2F3233;
+}
+.text-estado-cercana{
+    background-color: #FFD02E;
+    color: #5C4700;
+}
+.fecha_hora_meet{
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #545859;
+}
+.text-area-cercana,
+.text-area-atendida{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #7F8182;
+}
+.text-area-espacio{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #FFF2E5;
+    color: #FF8300;
+    padding: 2px 8px;
+    border-radius: 100px;
+}
+.text-meet-cercana{
+    background-color: #FFFFFF;
+    color: #1F792E;
+    border: 1px solid #309B42;
+}
+.text-meet-cercana:hover{
+    background-color: #F1FFEE;
+    color: #1F792E;
+}
+
+.text-estado-atendidas{
+    color: #FFFFFF;
+    background-color: #69488E;
+    border-radius: 100px;
+    margin-left: 5px; font-weight:bold;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.text-soportes{
+    color: #545859;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.descargable-soporte{
+    display: flex;
+    padding: 4px 8px;
+    margin: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 100px;
+    background: #F5F5F5;
+    color: #696D6D;
+    border: 1px solid #696D6D;
+}
+.descargable-soporte:hover{
+    color: #696D6D;
+}
+
+.dropdown-toggle-espacios{
+    background-color: #43B02A !important;
+    color: #FFFFFF !important;
+}
+.dropdown-toggle-espacios:hover {
+    background-color: #43B02A !important;
+    color: #FFFFFF !important;
+}
+
+.contenido-cards {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+.contenido-paginador-footer{
+    padding-top: 100px !important;
+    padding: 0 !important;
+    background-color: #f8f9fa;
+    padding-bottom: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.content-paginacion{
+    margin-top: 15px !important;
+}
+.btns-paginadores-style{
+    margin: 0px !important;
+}
+.btns-paginadores-style li > a:hover{
+    background: #43B02A !important;
+    color: #309B42;
+}
+.btns-paginadores-style li > a.active{
+    border-radius: 100px !important;
+    background: #309B42 !important;
+    color: #FFFFFF !important;
+    color: #309B42;
+}
+.btns-paginadores-style li > a:not(.active) {
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    color: #309B42;
+    margin: 0 3px !important;
+}
+.btn-exportar{
+    /*margin-left: 100px !important;*/
+    margin-top: 15px !important;
+}
+.btn-exportar-agendas{
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none !important;
+}
+.btn-exportar-agendas:hover{
+    background: #43B02A;
+    color: #1F792E;
+}
+
+/*Para el button de Ir a Espacios*/
+.first-content-agendas {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+}
+
+/*Para el orden de tabs y contenido: */
+@media (max-width: 768px) {
+    .contenedor-container {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .first-content-agendas {
+        order: -1 !important;
+        position: sticky !important;
+        background-color: #fff !important;
+        padding: 10px !important;
+    }
+    .second-content-cards {
+        order: 1 !important;
+        margin-top: auto !important;
+        margin-top: 20px !important;
+    }
+
+    /*Los buttons e inputs de filtro*/
+    .content-button-estado{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+    .content-filtro-estado{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+
+}
+/*Contenido a la derecha:  del id y agunos buttons de los cards: meet, subir soporte, cerrar*/
+.content-right{
+    text-align: right;
+}
+
+
+/*Los selects de area*/
+.modal {
+    z-index: 2000 !important; /* Ajusta el valor según sea necesario */
+}
+.select2-container .select2-dropdown {
+    z-index: 100000 !important;
+}
+.swal2-container {
+    z-index: 2001;
+}
+#selectmax10,
+#selectpares,
+#selectranking,
+#selectretroalimentacion,
+#selectprimario,
+#selectcountry,
+#selectcompras,
+#selectmerco,
+#selectindicadores,
+#selectsostenibilidad{
+    z-index: 99999 !important;
+    width: 150px !important;
+}
+
+/*tamaño del icon en sweet alert*/
+.icon_swal_fire{
+    border: none !important;
+    width: 180px; height: 160px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+/*Campos del modal*/
+.evento-time{
+    color: #FFFFFF;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #FFFFFF;
+}
+.time-modal{
+    color: #FFFFFF;
+    padding: 5px 8px;
+    font-size: 15px;
+    border: 1px solid #FFFFFF;
+}
+.fc-event-title{
+    color: green !important; /* Cambia el color del texto de eventos */
+}
+.fc-event:hover {
+    border: 2px solid green !important;
+    color: green !important;
+    z-index: 999999 !important;
+    /*width: 200px !important;*/
+    width: 200px !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+/*Contenedor del button para redireccion a espacios*/
+@media (min-width: 577px) and (max-width: 992px){
+    .contenedor-pagina-principal{
+        display: block !important;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+/*Para los botones desactivados:*/
+.disabled-button{
+    color: grey;
+}
+.disabled-button:hover{
+    border-bottom: none !important;
+    color: grey;
+    background-color: transparent !important;
+}

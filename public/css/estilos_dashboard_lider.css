@@ -1,0 +1,560 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+.contani-fluid{
+    background-color: green;
+}
+.container{
+    background-color:  #f5f5f5;
+}
+.cabecera-dash{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.cabecera .username-text > p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.cabecera .input-fecha-cabecera{
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+    color: #2F3233;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+/*Para la primera seccion: cards de cantidades:*/
+.title-card-counts{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.title-card-counts .title-card-counts{
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.card-body .card-title .title-body-card{
+    font-size: 56px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+.card-body .card-title .subtitle-body-card{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+/*Colores para cada card*/
+.first-card{
+    background-color: #FF8300;
+    color: #FFFFFF;
+}
+.second-card{
+    background-color: #FFD02E;
+    color: #000000;
+}
+.third-card{
+    background-color: #69488E;
+    color: #FFFFFF;
+}
+.fourt-card{
+    background-color: #43B02A;
+    color: #FFFFFF;
+}
+
+/*agendas cercanas, atendidas y pendientes por agendar: */
+.icon-invitados{
+    color: #43B02A;
+    margin-right: 10px;
+}
+.span-invitados{
+    background-color: #43B02A !important;
+    color: #FFFFFF !important;
+    border-radius: 100px;
+    padding: 2px 8px;
+    gap: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+
+}
+/*Fin de estilos para los cards de cantidad*/
+.title-cabeceras{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.card-sesiones-cercanas,
+.card-sesiones-atendidas,
+.card-sesiones-pendientes{
+    border: 1px solid  #D3D3D3;
+}
+
+.text-espacio-cercana,
+.text-espacio-atendida{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: #2F3233;
+}
+.text-estado-cercana{
+    background-color: #FFD02E;
+    color: #5C4700;
+}
+.fecha_hora_meet{
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #545859;
+}
+.text-area-cercana,
+.text-area-atendida{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #7F8182;
+}
+.text-area-espacio{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #FFF2E5;
+    color: #FF8300;
+    padding: 2px 8px;
+    border-radius: 100px;
+}
+.text-meet-cercana{
+    background-color: #FFFFFF;
+    color: #1F792E;
+    border: 1px solid #309B42;
+}
+.text-meet-cercana:hover{
+    background-color: #F1FFEE;
+    color: #1F792E;
+}
+
+.text-estado-atendidas{
+    color: #FFFFFF;
+    background-color: #69488E;
+    border-radius: 100px;
+    margin-left: 5px;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.text-soportes{
+    color: #545859;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.btn-subir-evidencia{
+    padding: 12px 12px;
+    gap: 8px;
+}
+.text-cerrar-agenda{
+    border-radius: 4px;
+    background: #309B42;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    gap: 8px;
+    padding: 12px 12px;
+}
+.text-cerrar-agenda:hover{
+    background-color: #1F792E;
+}
+.btn-agendar-pendientes{
+    background-color: #309B42;
+}
+.text-soportes-desc{
+    color: #2F3233;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn-disabled{
+    color: #BFBFBF;
+    background: #E8E8E8;
+}
+
+.dropdown-toggle-espacios{
+    background-color: #309B42 !important;
+    color: #FFFFFF !important;
+}
+.dropdown-toggle-espacios:hover {
+    background-color: #309B42 !important;
+    color: #FFFFFF !important;
+}
+.btn-ver-todas-pendientes,
+.btn-ver-todas-atendidas{
+    border-radius: 100px;
+    color: #1F6C0D;
+}
+.btn-ver-todas-pendientes:hover,
+.btn-ver-todas-atendidas:hover{
+    border-radius: 100px;
+    color: #1F6C0D;
+    background-color: #F1FFEE;
+}
+
+
+/*Para iconos de los sweet alert*/
+.icon_swal_fire{
+    border: none !important;
+    width: 180px; height: 160px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+/*************************************************************************/
+/*@media (max-width: 992px){
+    .sidebar-white{
+        background-color: white;
+    }
+}*/
+
+@media (min-width: 993px){
+    /*Css para la parte 1: CARDS de dashboard*/
+    .container-cards-count{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .content-cards{
+        width: 220px !important; /*180*/
+        height: 120px; /*130*/
+    }
+    .content-cards h5{
+        font-size: 12px !important; /*14*/
+    }
+    .content-cards .card-body strong{
+        font-size: 14px;
+    }
+    .content-cards .card-body p{
+        font-size: 10px;
+    }
+    /*CSS para la parte 2: reuniones cercanas*/
+
+    /*CSS para la parte 3: reuniones atendidas*/
+
+    /*CSS para la parte 4: reuniones por agendar*/
+
+    .cabecera .username-text > p{
+        font-size: 22px;
+        /*white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 200px;*/
+    }
+    .cabecera .input-fecha-cabecera{
+        padding: 10px 12px;
+        gap: 4px;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px){
+    /*Css para la parte 1: CARDS de dashboard*/
+    .container-cards-count{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .content-cards{
+        width: 200px !important;
+        height: 130px;
+    }
+    .content-cards h5{
+        font-size: 14px !important;
+    }
+    .content-cards .card-body strong{
+        font-size: 14px;
+    }
+    .content-cards .card-body p{
+        font-size: 10px;
+    }
+    /*CSS para la parte 2: reuniones cercanas*/
+
+    /*CSS para la parte 3: reuniones atendidas*/
+
+    /*CSS para la parte 4: reuniones por agendar*/
+    .cabecera .username-text > p{
+        font-size: 22px;
+        /*white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 200px;*/
+    }
+    .cabecera .input-fecha-cabecera{
+        padding: 10px 12px;
+        gap: 4px;
+    }
+
+}
+@media screen and (max-width: 576px){
+    /*Css para la parte 1: CARDS de dashboard*/
+    .container-cards-count{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .content-cards{
+        width: 180px !important;
+        height: 130px;
+    }
+    .content-cards h5{
+        font-size: 14px;
+    }
+    .content-cards .card-body strong{
+        font-size: 14px;
+    }
+    .content-cards .card-body p{
+        font-size: 10px;
+    }
+    .cabecera .username-text > p{
+        font-size: 22px;
+    }
+    .cabecera .input-fecha-cabecera{
+        padding: 10px 12px;
+        gap: 4px;
+    }
+    /*CSS para la parte 2: reuniones cercanas*/
+
+    /*CSS para la parte 3: reuniones atendidas*/
+
+    /*CSS para la parte 4: reuniones por agendar*/
+
+}
+
+/*#news-slider{
+    margin-top: 10px;
+}*/
+.post-slide{
+    background: #fff;
+    margin: 15px 15px 15px; /**/
+    border-radius: 0; /*15px*/
+    padding-top: 0; /*1px*/
+    /*box-shadow: 0px 14px 22px -9px #bbcbd8;*/
+}
+.post-slide .post-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: -12px 15px 8px 15px;
+    margin-left: -10px;
+}
+.post-slide .post-img img{
+    width: 100%;
+    height: 150px;
+    transform: scale(1,1);
+    transition:transform 0.2s linear;
+}
+.post-slide:hover .post-img img{
+    transform: scale(1.1,1.1);
+}
+.post-slide .over-layer{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    background: linear-gradient(-45deg, rgba(6,190,244,0.75) 0%, rgba(45,112,253,0.6) 100%);
+    transition:all 0.50s linear;
+}
+.post-slide:hover .over-layer{
+    opacity:1;
+    text-decoration:none;
+}
+/*.post-slide .over-layer i{
+    position: relative;
+    top:45%;
+    text-align:center;
+    display: block;
+    color:#fff;
+    font-size:25px;
+}*/
+.post-slide .post-content{
+    background: #ffffff;
+    padding: 10px 15px 10px; /* superior | costados | inferior*/
+    border-radius: 15px;
+}
+/*.post-slide .post-title a{
+    font-size:18px;
+    font-weight:800;
+    color:#333;
+    display: inline-block;
+    text-transform:uppercase;
+    transition: all 0.3s ease 0s;
+}*/
+/*.post-slide .post-title a:hover{
+    text-decoration: none;
+    color:#3498db;
+}*/
+.post-slide .post-description{
+    line-height:24px;
+    color:#808080;
+    margin-bottom:25px;
+}
+/*.post-slide .post-date{
+    color:#a9a9a9;
+    font-size: 14px;
+}
+.post-slide .post-date i{
+    font-size:20px;
+    margin-right:8px;
+    color: #CFDACE;
+}*/
+.owl-controls .owl-buttons{
+    text-align:center;
+    margin-top:20px;
+}
+.owl-controls .owl-buttons .owl-prev{
+    background: transparent; /*#fff*/
+    color: #1F792E !important;
+    position: absolute;
+    top:40%;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-next{
+    background: transparent; /*#fff*/
+    color: #1F792E !important;
+    position: absolute;
+    top:40%;
+    right: 0px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after{
+    content:"\f104";
+    font-family: FontAwesome;
+    color: #1F792E; /*#333*/
+    font-size:30px;
+}
+.owl-controls .owl-buttons .owl-next:after{
+    content:"\f105";
+}
+
+
+
+@media only screen and (max-width:1280px) {
+    .post-slide .post-content{
+        padding: 0px 15px 25px 15px;
+    }
+}
+/*Para los select de area en los modales*/
+
+#selectmax10,
+#selectpares,
+#selectranking,
+#selectretroalimentacion,
+#selectprimario,
+#selectcountry,
+#selectcompras,
+#selectmerco,
+#selectindicadores,
+#selectsostenibilidad{
+    z-index: 99999 !important;
+    width: 150px !important;
+}
+
+.fc-toolbar-title { /*Cambia el color del mes*/
+    color: green;
+}
+        
+.fc-event-title{
+    color: green !important; /* Cambia el color del texto de eventos */
+}
+.fc-event:hover {
+    border: 2px solid green !important; 
+    color: green !important;
+    z-index: 9999999999999999 !important;
+    /*width: 200px !important;*/
+    width: auto; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+/*Contenido a la derecha: */
+.content-right{
+    text-align: right;
+}
+
+
+/*STYLES PARA tipo_evento y fecha_hora_meet*/
+.evento-time{
+    color: #1F6C0D;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #1F6C0D;
+}
+.time-modal{
+    color: #1F6C0D;
+    padding: 5px 8px;
+    font-size: 15px;
+    border: 1px solid #1F6C0D;
+}
+
+
+
+/* Estilos para los inputs de tipo:file */
+.input-file-sub-soporte{
+    color: #545859;
+    background-color: #F1FFEE;
+    border: 1px dashed #43B02A;
+    width: auto !important;
+    cursor: pointer;
+}
+.input-file-sub-soporte::-webkit-file-upload-button {
+    display: none
+}
+.input-file-sub-soporte:hover{
+    color: #43B02A;
+    border: 2px dashed #43B02A;
+}
+.btnQuitarFila{
+    color: #BA000B;
+    cursor: pointer;
+}
+.btnQuitarFila:hover{
+    color: #BA000B;
+}
+.add_files{
+    color: #1F6C0D;
+}
+.add_files:hover{
+    color: #BA000B;
+}

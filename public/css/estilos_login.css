@@ -1,0 +1,271 @@
+/*Estilos complementarios para el login:*/
+*{
+    /*TIPO DE LETRA PARA TODOS LOS MÓDULOS*/
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+}
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh !important;
+    /*background-color: yellow;*/
+    /*background-color: grey;*/
+}
+.contenido-del-login{
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100vh !important;
+    /*background: green;*/
+}
+.min-h-screen {
+    height: 100vh !important;
+    width: 100%;
+    /*background: red;*/
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Elimina el margen y el relleno del contenedor total */
+.contenedor-total {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100vh !important;
+}
+
+.contenedor-imagen-1 {
+    height: 100vh !important;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+}
+.contenedor-imagen-1 .logo-img {
+    width: 100%;
+    height: 100vh !important;
+    background-image: linear-gradient(to bottom, rgba(48, 155, 66, 1), rgba(0, 81, 41, 0.6)), url('../enterprise/login_agendas.jpeg');
+    background-size: cover;
+    background-position: center;
+    gap: 256px;
+    opacity: 0px;
+}
+
+.title-login-img{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 76px;
+    height: 27px;
+}
+
+.texto {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 12px;
+}
+
+.texto-login {
+    margin-bottom: 20px; /* Espacio entre los elementos de texto */
+}
+.texto .texto-login{
+    color: #FFFFFF;
+}
+.texto strong{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.texto p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+}
+
+/*Para segundo contenedor titulo y demás:*/
+.contenedor-form-1{
+    padding: 0px 80px;
+    /*background-color: green;*/
+    height: 100vh !important;
+}
+.contenedor-form-2{
+    /*background-color: #0c84ff;*/
+}
+.contenedor-form-2 form .encabezado{
+    margin: 15px 0px;
+}
+.contenedor-form-2 form .encabezado h2 strong{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*Para los iconos dentro de unputs:*/
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-container .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-container .input-icon i {
+    font-size: 20px;
+    color: grey;
+}
+.input-container input {
+    padding-left: 40px; /* Ajusta el padding izquierdo para separar el texto del icono */
+}
+/************************************/
+/*Validacion de errores: */
+.errors-validation{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background-color: #FFE8E9;
+    color: #BA000B;
+}
+/*button inicio de sesion -> con efectos de Desactivado y activado: */
+.button-login{
+    background-color: #43B02A !important; /*Button normal*/
+}
+.button-login:hover{
+    background-color: #5AD23F !important; /*Button hover*/
+}
+.button-login[disabled] {
+    background-color: #E8E8E8 !important; /* Color de fondo cuando está deshabilitado */
+    color: #BFBFBF !important; /* Color de texto cuando está deshabilitado */
+}
+@media screen and (min-width: 768px) and (max-width: 1290px){
+    .contenedor-imagen-1 {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .contenedor-imagen-1 .logo-img {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgba(48, 155, 66, 1), rgba(0, 81, 41, 0.6)), url('../enterprise/login_agendas.jpeg');
+        background-size: cover;
+        background-position: center;
+        gap: 256px;
+        opacity: 0px;
+    }
+    .title-login-img{
+        position: absolute;
+        top: 20px !important;
+        left: 40px !important;
+        width: 60px !important;
+        height: 40px !important;
+    }
+    .texto {
+        width: 90%; /*400px*/
+        height: auto;
+        position: absolute;
+        top: 50% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        padding: 12px;
+    }
+    .texto strong{
+        font-size: 25px;
+        line-height: 48px;
+    }
+    .texto p{
+        font-size: 19px;
+        line-height: 32px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .contenedor-total{
+        /*margin-top: 20px;*/
+        display: grid !important;
+        place-items: center;
+        place-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        /*background-color: green;*/
+        height: 100vh !important;
+        margin: 0;
+        padding: 0;
+    }
+    /*.contenedor-imagen-1{
+        display: grid !important;
+        place-content: center;
+        place-items: center;
+        max-height: 50%;
+        height: 50%;
+        width: 100% !important;
+        padding: 0;
+        margin: 0;
+    }*/
+    .contenedor-imagen-1 {
+        height: 50vh !important;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .contenedor-imagen-1 .logo-img {
+        height: 50vh !important;
+    }
+    .title-login-img{
+        position: absolute;
+        top: 20px;
+        left: 35px;
+        width: 60px !important;
+        height: 40px !important;
+    }
+    .texto {
+        width: 90%;
+        height: auto;
+        position: absolute;
+        top: 70% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        padding: 12px;
+    }
+    .texto strong{
+        font-size: 25px;
+        line-height: 48px;
+    }
+    .texto p{
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+
+
+
+
+    .contenedor-imagen-2{
+        width: 100% !important;
+    }
+    .contenedor-imagen-2 img{
+        max-height: 330px;
+        height: 330px;
+        width: 780px;
+    }
+    .contenedor-form-1{
+        margin-top: 0;
+        height: auto !important;
+        /*padding: 20px;*/
+        padding: 0 30px;
+        /*background-color: orange;*/
+    }
+    .contenedor-form-2{
+
+    }
+
+}

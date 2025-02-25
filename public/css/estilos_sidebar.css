@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none !important;
+    box-shadow: none !important;
+    list-style: none;
+    text-decoration: none !important;
+
+    /*TIPO DE LETRA PARA TODOS LOS MÓDULOS*/
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+
+}
+
+aside{
+    background-color: #007A3E !important;
+}
+
+.brand-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.brand-text b{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.title_sidebar_web{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    width: 80%;
+    padding: 5px 50px;
+    border-radius: 60px;
+    /*background-color: #FF8300;*/
+}
+.input-group-append > button {
+    color: #FFFFFF !important;
+}
+
+.has-treeview > a{
+    color: #FFFFFF !important;
+}
+.has-treeview > a:hover{
+    background-color: rgba(255, 255, 255, 0.10) !important;
+    color:  #FFFFFF !important;
+}
+
+.has-treeview ul li a{
+    color: #FFFFFF !important;
+}
+.has-treeview ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.10)  !important;
+    color: #FFFFFF !important;
+}
+.has-treeview > .active{
+    background-color: #309B42 !important;
+    color: #FFFFFF !important;
+}
+.has-treeview .nav-treeview .nav-item > .active{
+    background-color:  #43B02A !important;
+    color: #FFFFFF !important;
+}
+
+.nav-treeview .nav-item .nav-link{
+    margin-left: 14px;
+    width: 94%;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/*Dropdown del username*/
+.user-header{
+    background-color: #007A3E !important;
+    color: #FFFFFF !important;
+}
+
+.checkboxFont{
+    /*font-weight: normal !important;*/
+    font-weight: 500 !important;
+}
+
+
